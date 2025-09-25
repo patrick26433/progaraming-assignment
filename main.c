@@ -1,0 +1,36 @@
+/*
+Name:
+Reg No:
+Description:program to calculate the  volume and surface area of a cylinder
+surface_area=2*pi*radius*radius+2*pi*radius*height
+volume=pi*radius*radius*height
+*/
+
+#include<stdio.h>
+
+int main(){
+    float pi=3.142;
+    float radius,height,volume,surface_area;
+
+    //prompt the user to enter radius
+    printf("enter the radius:");
+    scanf("%f",&radius);
+
+    //prompt the user to enter height
+    printf("enter the height:");
+    scanf("%f",&height);
+
+    //calculate volume surface_area
+    surface_area=2*pi*radius*radius + 2*pi*radius*height;
+
+   //calulate volume
+   volume=pi*radius*radius*height;
+
+   //display surface_area
+   printf("\n surface_area of the cylinder is %f",surface_area);
+
+   //display volume
+   printf("\n volume of the cylinder is %f",volume);
+
+   return 0;
+   }
