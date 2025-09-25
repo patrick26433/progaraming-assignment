@@ -8,11 +8,12 @@ Description:prompt user to enter phone_number
 
 int main(){
     int phone_number;
-printf("enter your phone_number is:");
+printf("enter your phone_number:");
 scanf("%d",&phone_number);
 printf("your phone_number is%d",phone_number);
 return 0;
 }
+
 
 
 
