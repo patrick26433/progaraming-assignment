@@ -8,8 +8,9 @@ Description:prompt user to enter bank balance
 
 int main(){
     int bankbalance;
-printf("enter your bankbalance is:");
+printf("enter your bankbalance:");
 scanf("%d",&bankbalance);
 printf("your bankbalance is%d",bankbalance);
 return 0;
 }
+
