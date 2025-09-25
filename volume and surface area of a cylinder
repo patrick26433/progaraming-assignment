@@ -1,6 +1,6 @@
 /*
-Name:
-Reg No:
+Name:patrick kanyora
+Reg No:CT101/G/26433/25
 Description:program to calculate the  volume and surface area of a cylinder
 surface_area=2*pi*radius*radius+2*pi*radius*height
 volume=pi*radius*radius*height
@@ -34,4 +34,5 @@ int main(){
 
    return 0;
    }
+
 
