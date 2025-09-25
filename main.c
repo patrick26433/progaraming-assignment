@@ -1,0 +1,25 @@
+/*
+Name:Patrick kanyora
+Reg No:CT101/G/26433/25
+Description:prompt user to enter phone_number
+*/
+
+#include<stdio.h>
+
+int main(){
+    int phone_number;
+printf("enter your phone_number is:");
+scanf("%d",&phone_number);
+printf("your phone_number is%d",phone_number);
+return 0;
+}
+
+
+
+
+
+
+
+
+
+
