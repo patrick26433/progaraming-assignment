@@ -8,8 +8,9 @@ Description:prompt user to enter height
 
 int main(){
  int height;
- printf("enter your height is:");
+ printf("enter your height:");
  scanf("%d",&height);
  printf("your height is%d",height);
  return 0;
 }
+
