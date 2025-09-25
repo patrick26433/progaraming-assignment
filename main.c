@@ -1,0 +1,15 @@
+/*
+Name:Patrick kanyora
+Reg No:CT101/G/26433/25
+Description:prompt user to enter height
+*/
+
+#include<stdio.h>
+
+int main(){
+ int height;
+ printf("enter your height is:");
+ scanf("%d",&height);
+ printf("your height is%d",height);
+ return 0;
+}
