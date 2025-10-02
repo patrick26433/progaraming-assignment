@@ -1,6 +1,7 @@
 /*
 Name:Patrick kanyora
 Reg No:CT101/G/26433/25
+Date:2 oct 2025
 Description:water bill calculator
 */
 
@@ -31,3 +32,4 @@ int main(){
 
     return 0;
 }
+
