@@ -1,0 +1,31 @@
+/*
+Name:Patrick kanyora
+Reg No:CT101/G/26433/25
+Description:exam_elligibilty
+*/
+
+#include <stdio.h>
+
+int main(){
+    //variable declaration
+    int attendance,average_marks;
+
+    //prompt user to enter attendance
+    printf("Enter your attendance: ");
+    scanf("%d",&attendance);
+    //prompt user to enter average_marks
+    printf("Enter your average marks:");
+    scanf("%d",&average_marks);
+
+    //check the elligibility
+    if(attendance>=75 && average_marks>40)
+    {
+        printf("You are elligible for final exams \n");
+    }
+    else
+    {
+        printf("You are no elligible for final exams");
+    }
+
+    return 0;
+}
