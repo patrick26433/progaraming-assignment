@@ -1,0 +1,33 @@
+/*
+Name:Patrick kanyora
+Reg No:CT101/G/26433/25
+Description:water bill calculator
+*/
+
+#include<stdio.h>
+
+int main(){
+
+    //variable declaration
+    int units;
+    float bill;
+
+    //prompt the user to enter the number of units
+    printf("Enter number of units consumed:");
+    scanf("%d",&units);
+
+    if(units >= 0 && units <= 30){
+        bill=units*20;
+    }
+    else if(units >30 && units <= 60){
+        bill=(30*20)+((units-30)*25);
+    }
+    else if(units >60){
+        bill=(30*20)+(30*25)+((units-60)*30);
+    }
+
+    //display the total bill
+    printf("Your total bill is KES. %.2f \n",bill);
+
+    return 0;
+}
