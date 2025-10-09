@@ -1,7 +1,7 @@
 /*
 Name:Patrick kanyora
 Reg No:CT101/G/26433/25
-Descrition:Bank atm withdrawal
+Descrition:for_loop numbers 100-50
 */
 
 #include<stdio.h>
@@ -15,3 +15,4 @@ int main(){
     }
     return 0;
 }
+
