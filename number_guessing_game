@@ -1,7 +1,7 @@
 /*
-Name:
-Reg No:
-Description:
+Name:Patrick kanyora
+Reg No:CT101/G/26433/25
+Description:Number_guessing_game
 */
 
 #include<stdio.h>
@@ -33,5 +33,6 @@ int main(){
     while (guess !=secret_number);
     return 0;
 }
+
 
 
