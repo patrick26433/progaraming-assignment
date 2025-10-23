@@ -1,0 +1,33 @@
+/*
+Name:Patrick kanyora
+Reg No:CT101/G/26433/25
+description:calculate electrical bill
+*/
+
+#include<stdio.h>
+int calculateElectricalBill(int units);
+void main(){
+   int units,bill;
+   //prompt user to enter number of units
+   printf("Enter number of units: ");
+   scanf("%d",&units);
+   //function call
+   bill=calculateElectricalBill(units);
+   //print result
+   printf("Total bill is: %d \n" ,bill);
+}
+
+int calsculateElectricalBill(int units){
+    int bill;
+    if(units<=100){
+            bill=units*10;
+    }
+    else if(units <=200){
+        bill=(100*units)+((units-100)*15);
+    }
+    else{
+        bill=(100*10)+(100*15)+((units-200)*20);
+    }
+    return bill;
+}
+
